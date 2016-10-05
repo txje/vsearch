@@ -289,6 +289,7 @@ extern long opt_fasta_width;
 extern long opt_fastq_ascii;
 extern long opt_fastq_asciiout;
 extern long opt_fastq_maxdiffs;
+extern double opt_fastq_maxovlerr;
 extern long opt_fastq_maxlen;
 extern long opt_fastq_maxmergelen;
 extern long opt_fastq_maxns;

@@ -453,7 +453,7 @@ double overlap_score(merge_data_t * ip,
         {
           score += mism_score[fwd_qual][rev_qual];
           diffs++;
-          if (diffs > opt_fastq_maxdiffs)
+          if (diffs > opt_fastq_maxdiffs && double(diffs)/overlap >= opt_fastq_maxovlerr)
             return -1000.0;
         }
     }
